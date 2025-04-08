@@ -1,95 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
-    <!--! Add browsers laws-->
+    <!--! Technical meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!--! Add favicon-->
+    <!--! Favicon -->
     <link rel="icon" href="/src/img/favicon.png" type="image/png">
-    <link rel="apple-touch-icon" href="/src/img/favicon.png" type="image/png">
-    <link rel="shortcut icon" href="/src/img/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/src/img/favicon.png">
+    <link rel="shortcut icon" href="/src/img/favicon.png">
 
-    <!--! Add style CSS-->
+    <!--! CSS -->
     <link rel="stylesheet" href="/src/css/reset.css">
-    <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/variables.css">
+    <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/media.css">
-    
-    <!--! Add title and description--> 
-    <title>Bakery-від серця до серця ❤️</title>
-    <meta name="description" content="Bakery-від серця до серця ❤️ - це сайт, де ви можете знайти найсмачнішу випічку міста Київ.">
-    <meta name="keywords" content="випічка, рецепти, тістечка, пироги, хліб, десерти">
+
+    <!--! SEO tags -->
+    <title>Bakery — від серця до серця ❤️</title>
+    <meta name="description" content="Bakery — від серця до серця ❤️ — це сайт, де ви знайдете найсмачнішу випічку Києва.">
+    <meta name="keywords" content="випічка, рецепти, тістечка, пироги, хліб, десерти, київська пекарня">
     <meta name="author" content="Sasha Zimin">
-    <meta name="copyright" content="Bakery-від серця до серця ❤️">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
+    <meta name="copyright" content="Bakery — від серця до серця ❤️">
+    <meta name="robots" content="noindex, nofollow">
 </head>
 
-<!--! Body -->
 <body>
     <header>
         <div class="logo">
-            <img src="/src/assets/images/logo.svg" alt="Bakery - випічка від серця до серця ❤️" class="logo__img">
+            <a href="/">
+                <img src="/src/assets/images/logo.svg" alt="Логотип Bakery" class="logo__img">
+            </a>
         </div>
-        <nav class="menu">
-                <ul>
-                    <li class="menu_items">Головна</li>
-                    <li class="menu_items">Про нас</li>
-                    <li class="menu_items">Випічка</li>
-                    <li class="menu_items">Новини</li>
-                    <li class="menu_items">Контакти</li>
-                </ul>
+        <nav class="menu" aria-label="Головне меню">
+            <ul>
+                <li><a href="#home" class="menu_items">Головна</a></li>
+                <li><a href="#about" class="menu_items">Про нас</a></li>
+                <li><a href="#bakery" class="menu_items">Випічка</a></li>
+                <li><a href="#news" class="menu_items">Новини</a></li>
+                <li><a href="#contacts" class="menu_items">Контакти</a></li>
+            </ul>
         </nav>
     </header>
 
-    <!--! Add main content -->
-        <main>
+    <main>
+        <!--! Section with background image -->
+        <section id="home" class="background_img">
+            <div class="background_img__text">
+                <h1>Ласкаво просимо до Bakery — від серця до серця ❤️</h1>
+                <p>Скуштуйте нашу домашню випічку — тепло з першого шматочка!</p>
+            </div>
+        </section>
 
-            <!--! Static slide in background image-->
-            <section class="background_img">
-                <div class="background_img__text">
-                    <p></p>
-                </div>
-            </section>
+        <!--! Icon section -->
+        <section class="icons">
+            <div class="icons__img">
+                <img src="/src/assets/images/icons.svg" alt="Іконки: хліб, тістечка, торт" class="icons__img">
+            </div>
+        </section>
 
-            <!--! Three icons-->
-            <section class="icons">
-                <div class="icons__img">
-                    <img src="/src/assets/images/icons.svg" alt="Bakery-від серця до серця ❤️" class="icons__img">
-                </div>
-            </section>secion>
+        <!--! Main site title -->
+        <section class="h1_title">
+            <h2 class="h1_title__text">Найсмачніша випічка у місті Київ</h2>
+            <p>Ми готуємо з любов’ю, використовуючи найкращі інгредієнти. Завітайте до нас і переконайтесь самі!</p>
+        </section>
 
-            <!--! Main text on page-->
-            <section class="h1_title">
-                <h1 class="h1_title__text"></h1>
-                <p></p>
+        <!--! Google-map -->
+        <section id="contacts" class="google_map">
+            <div class="google_map__text">
+                <h3>Знайдіть нас на мапі</h3>
+                <p>Ми розташовані у самому серці Києва</p>
+            </div>
+            <div class="google_map__iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509123!2d144.9537353153164!3d-37.81627997975168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11b5c7%3A0x5045675218ceed30!2sVictoria%20Bakery%20-%20Bakery%20Shop%20in%20Melbourne%2C%20Australia!5e0!3m2!1suk!2sua!4v1633035600000"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
 
-            </section>
-            <!--! Google Map-->
-            <section class="google_map">
-                <div class="google_map__text">
-                    <p></p>
-                </div>
-                <div class="google_map__iframe">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509123!2d144.9537353153164!3d-37.81627997975168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11b5c7%3A0x5045675218ceed30!2sVictoria%20Bakery%20-%20Bakery%20Shop%20in%20Melbourne%2C%20Australia!5e0!3m2!1sen!2sua!4v1633035600000" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </section>
-        </main>
-
-    <!--! Add footer -->
+    <!--! Footer-->
     <footer>
-        <nav class="main_menu">
+        <nav class="main_menu" aria-label="Футер меню">
             <ul>
-                <li class="main_menu__items">Головна</li>
-                <li class="main_menu__items">Про нас</li>
-                <li class="main_menu__items">Випічка</li>
-                <li class="main_menu__items">Новини</li>
-                <li class="main_menu__items">Контакти</li>
+                <li><a href="#home" class="main_menu__items">Головна</a></li>
+                <li><a href="#about" class="main_menu__items">Про нас</a></li>
+                <li><a href="#bakery" class="main_menu__items">Випічка</a></li>
+                <li><a href="#news" class="main_menu__items">Новини</a></li>
+                <li><a href="#contacts" class="main_menu__items">Контакти</a></li>
             </ul>
-    </nav>
+        </nav>
+        <p class="copyright">
+            &copy; 2025 Bakery — від серця до серця ❤️. Всі права захищені.
+        </p>
     </footer>
 </body>
+
 </html>
