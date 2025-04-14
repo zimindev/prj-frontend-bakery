@@ -1,7 +1,16 @@
 body {
-
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffe2b0;
 }
 header {
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo__img {
 
 }
 
@@ -12,6 +21,7 @@ header {
 
 }
 
+<<<<<<< HEAD
 .logo {
     display: flex;
     align-items: center;
@@ -24,6 +34,8 @@ header {
     justify-content: center;
     text-align: center;
 }
+=======
+>>>>>>> d150e384e6edb186d545278d4b07bfacb682e285
 .background_img {
 
 }
