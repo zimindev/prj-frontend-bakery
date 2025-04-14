@@ -13,10 +13,16 @@ header {
 }
 
 .logo {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .logo__img {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .background_img {
 
