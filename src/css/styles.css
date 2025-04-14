@@ -8,10 +8,15 @@ header {
 
 .logo {
     display: flex;
+    align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .logo__img {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .main_menu {
@@ -21,21 +26,6 @@ header {
 
 }
 
-<<<<<<< HEAD
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.logo__img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-=======
->>>>>>> d150e384e6edb186d545278d4b07bfacb682e285
 .background_img {
 
 }
