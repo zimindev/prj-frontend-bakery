@@ -13,17 +13,72 @@ body {
     height: auto;
 }
 
+nav {
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}
+
 .main_menu {
-    display: inline-block;
+    display: block;
+    align-items: center;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 1.125rem;
-    text-transform:uppercase
+    font-weight: 700;
+    color: #000;
+    text-transform:uppercase;
+    margin:0 0 1.25rem 0;
 }
 
-.main_menu__item {
-    display: inline-block;
-    margin: 0 1.25rem;
+.main_menu ul {
+    display: inline;
+    text-align: center;
+    list-style: none;
+}
+.main_menu li {
+    display: inline;
+    text-align: center;
+    list-style: none;
+    font-weight: 700;
+    color: #000;
+    padding: 0 6.25rem 0 0;
+}
+
+.main_menu li:last-child {
+    padding: 0;
+}
+.main_menu a {
+    display: inline;
+    text-align: center;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
     color: #000;
     text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
 }
+.main_menu a:hover {
+    color: #ff6f61;
+}
+.main_menu a:active {
+    color: #ff6f61;
+}
+.main_menu a:focus {
+    color: #ff6f61;
+}
+.main_menu__item {
+    display: inline;
+    text-align: center;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}   
