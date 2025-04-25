@@ -114,7 +114,6 @@ nav {
     display: block;
     align-items: center;
     text-align: center;
-    margin: 0 0 1.25rem 0;
 }
 
 .h1_title__text {
@@ -136,5 +135,34 @@ nav {
     font-size: 6rem;
     font-weight: 700;
     color: #f15b40;
+    margin: 0 0 1.25rem 0;
+}
+
+.h1_title p {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #000;
+    width: 62.5rem;
+    margin: 0 0 1.25rem 0;
+}
+
+.google_map {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 1.25rem 0;
+}
+.google_map__text {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #000;
     margin: 0 0 1.25rem 0;
 }
