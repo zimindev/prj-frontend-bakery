@@ -20,6 +20,11 @@ nav {
     display: block;
     align-items: center;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 20px 0;
+    background-color: #ffe2b0;
 }
 
 /** Main menu styling */
