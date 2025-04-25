@@ -1,7 +1,9 @@
+/** Page background color */
 body {
     background-color: #ffe2b0;
 }
 
+/** Logo container and image */
 .logo {
     display: block;
     text-align: center;
@@ -13,13 +15,14 @@ body {
     height: auto;
 }
 
+/** Navigation section */
 nav {
     display: block;
     align-items: center;
     text-align: center;
-
 }
 
+/** Main menu styling */
 .main_menu {
     display: block;
     align-items: center;
@@ -28,15 +31,18 @@ nav {
     font-size: 1.125rem;
     font-weight: 700;
     color: #000;
-    text-transform:uppercase;
-    margin:0 0 1.25rem 0;
+    text-transform: uppercase;
+    margin: 0 0 1.25rem 0;
 }
 
+/** Unordered list inside main menu */
 .main_menu ul {
     display: inline;
     text-align: center;
     list-style: none;
 }
+
+/** List items in the main menu */
 .main_menu li {
     display: inline;
     text-align: center;
@@ -46,9 +52,12 @@ nav {
     padding: 0 6.25rem 0 0;
 }
 
+/** Remove right padding from the last list item */
 .main_menu li:last-child {
     padding: 0;
 }
+
+/** Anchor tags in the main menu */
 .main_menu a {
     display: inline;
     text-align: center;
@@ -61,15 +70,15 @@ nav {
     text-transform: uppercase;
     transition: all 0.3s ease;
 }
-.main_menu a:hover {
-    color: #ff6f61;
-}
-.main_menu a:active {
-    color: #ff6f61;
-}
+
+/** Link hover, active, and focus states */
+.main_menu a:hover,
+.main_menu a:active,
 .main_menu a:focus {
     color: #ff6f61;
 }
+
+/** Additional menu item styling (possibly unused duplicate) */
 .main_menu__item {
     display: inline;
     text-align: center;
@@ -81,8 +90,9 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.3s ease;
-}   
+}
 
+/** Background image section */
 .background_img {
     display: block;
     align-items: center;
@@ -97,6 +107,7 @@ nav {
     margin: 0 0 1.25rem 0;
 }
 
+/** Icons section */
 .icons {
     display: block;
     align-items: center;
@@ -110,16 +121,19 @@ nav {
     padding: 0 4.75rem 0 0;
 }
 
+/** Remove padding from last icon */
 .icons__img:last-child {
     padding: 0;
 }
 
+/** Main H1 title section */
 .h1_title {
     display: block;
     align-items: center;
     text-align: center;
 }
 
+/** H1 title text styling */
 .h1_title__text {
     display: inline-block;
     align-items: center;
@@ -131,6 +145,7 @@ nav {
     margin: 0 0 2.25rem 0;
 }
 
+/** Highlighted text inside H1 */
 .h1_title__text span {
     display: inline-block;
     align-items: center;
@@ -142,6 +157,7 @@ nav {
     margin: 0 0 1.25rem 0;
 }
 
+/** Paragraph below the H1 */
 .h1_title p {
     display: inline-block;
     align-items: center;
@@ -154,12 +170,15 @@ nav {
     margin: 0 0 4.25rem 0;
 }
 
+/** Google map section */
 .google_map {
     display: block;
     align-items: center;
     text-align: center;
     margin: 0 0 1.25rem 0;
 }
+
+/** Text above Google Map */
 .google_map__text {
     display: inline-block;
     align-items: center;
@@ -171,6 +190,7 @@ nav {
     margin: 0 0 1.25rem 0;
 }
 
+/** Horizontal line separator */
 hr {
     align-items: center;
     text-align: center;
@@ -179,7 +199,8 @@ hr {
     border-top: 2px solid #000;
     width: 64rem;
 }
-/* Footer Copyright Styling */
+
+/** Footer copyright section */
 .copyright {
     display: block;
     align-items: center;
@@ -192,13 +213,15 @@ hr {
     color: #bbbbbb;
 }
 
+/** Footer links */
 .copyright a {
     color: #bbbbbb;
     text-decoration: none;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.copyright a:hover {
+/** Footer link hover effect */
+copyright a:hover {
     color: #ff6f61;
     transform: scale(1.05);
 }
