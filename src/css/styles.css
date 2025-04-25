@@ -118,7 +118,7 @@ nav {
 }
 
 .h1_title__text {
-    display: block;
+    display: inline-block;
     align-items: center;
     text-align: center;
     font-family: "Philosopher", sans-serif;
@@ -128,8 +128,8 @@ nav {
     margin: 0 0 1.25rem 0;
 }
 
-h1_title__text span {
-    display: block;
+.h1_title__text span {
+    display: inline-block;
     align-items: center;
     text-align: center;
     font-family: "Philosopher", sans-serif;
