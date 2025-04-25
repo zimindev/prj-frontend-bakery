@@ -110,6 +110,10 @@ nav {
     padding: 0 4.75rem 0 0;
 }
 
+.icons__img:last-child {
+    padding: 0;
+}
+
 .h1_title {
     display: block;
     align-items: center;
@@ -124,7 +128,7 @@ nav {
     font-size: 6rem;
     font-weight: 700;
     color: #000;
-    margin: 0 0 1.25rem 0;
+    margin: 0 0 2.25rem 0;
 }
 
 .h1_title__text span {
@@ -147,7 +151,7 @@ nav {
     font-weight: 400;
     color: #000;
     width: 62.5rem;
-    margin: 0 0 1.25rem 0;
+    margin: 0 0 4.25rem 0;
 }
 
 .google_map {
