@@ -96,3 +96,16 @@ nav {
     z-index: -1;
     margin: 0 0 1.25rem 0;
 }
+
+.icons {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 1.25rem 0;
+}
+
+.icons__img {
+    width: auto;
+    height: auto;
+    padding: 0 4.75rem 0 0;
+}
