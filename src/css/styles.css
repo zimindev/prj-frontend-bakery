@@ -109,3 +109,32 @@ nav {
     height: auto;
     padding: 0 4.75rem 0 0;
 }
+
+.h1_title {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 1.25rem 0;
+}
+
+.h1_title__text {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 1.25rem 0;
+}
+
+h1_title__text span {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    color: #f15b40;
+    margin: 0 0 1.25rem 0;
+}
