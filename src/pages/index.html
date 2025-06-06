@@ -22,113 +22,78 @@
 -->
 
 <html lang="uk">
-
 <head>
-    <!--! Technical meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!--! Favicon -->
-    <link rel="icon" href="/src/assets/favicon/favicon_32x32.png" type="image/png">
-    <link rel="shortcut icon" href="/src/assets/favicon/favicon.png" type="image/png">
-    <link rel="apple-touch-icon" sizes="96x96" href="/src/assets/favicon/favicon_96x96.png">
-
-    <!--! CSS -->
-    <link rel="stylesheet" href="/src/css/reset.css">
-    <link rel="stylesheet" href="/src/css/variables.css">
-    <link rel="stylesheet" href="/src/css/styles.css">
-    <link rel="stylesheet" href="/src/css/media.css">
-
-    <!--! Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <!--! SEO tags -->
-    <title>Bakery — від серця до серця ❤️</title>
-    <meta name="description" content="Bakery — від серця до серця ❤️ — це сайт, де ви знайдете найсмачнішу випічку Києва.">
-    <meta name="keywords" content="випічка, рецепти, тістечка, пироги, хліб, десерти, київська пекарня">
-    <meta name="author" content="Sasha Zimin">
-    <meta name="copyright" content="Bakery — від серця до серця ❤️">
-    <meta name="robots" content="noindex, nofollow">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/media.css">
+	<title>Bakery | Київська випічка</title>
+	<meta name="description" content="Чудова Київська випічка за власним рецептом">
 </head>
-
 <body>
-    <header>
-        <div class="logo">
-            <a href="#">
-                <img class="logo__img" src="/src/assets/img/logo.svg" alt="Логотип Bakery">
-            </a>
-        </div>
-    </header>
-
-    <main>
-        <!--! Navigation menu -->
-        <nav class="main_menu" aria-label="Головне меню">
-            <ul>
-                <li><a href="#home" class="main_menu__items">Головна</a></li>
-                <li><a href="#about" class="main_menu__items">Про нас</a></li>
-                <li><a href="#bakery" class="main_menu__items">Випічка</a></li>
-                <li><a href="#news" class="main_menu__items">Новини</a></li>
-                <li><a href="#contacts" class="main_menu__items">Контакти</a></li>
-            </ul>
-        </nav>
-
-        <!--! Section with background image -->
-        <section id="home" class="background_img">
-            <div class="background_img__text">
-                <h1>Ласкаво просимо до Bakery — від серця до серця ❤️</h1>
-                <p>Скуштуйте нашу домашню випічку — тепло з першого шматочка!</p>
-            </div>
-        </section>
-
-        <!--! Icon section -->
-        <section class="icons">
-            <div class="icons__img">
-                <img class="icons__img" src="/src/assets/icons/bakery.svg" alt="Іконки: хліб, тістечка, торт">
-                <img class="icons__img" src="/src/assets/icons/cakes.svg" alt="Іконки: хліб, тістечка, торт">
-                <img class="icons__img" src="/src/assets/icons/sweet.svg" alt="Іконки: хліб, тістечка, торт">
-            </div>
-        </section>
-
-        <!--! Main site title -->
-        <section class="h1_title">
-            <h1 class="h1_title__text">Найсмачніша <span>випічка</span> у місті Київ</h1>
-            <p>Ми готуємо з любов’ю, використовуючи найкращі інгредієнти. Завітайте до нас і переконайтесь самі!
-                У нас ви знайдете не лише смачні страви, а й теплу атмосферу, що зігріває серце.
-                Кожен наш рецепт — це поєднання традицій, турботи та натхнення.
-                Ми дбаємо про кожного гостя, тому кожен ваш візит — особливий для нас.
-                Скуштуйте, відчуйте різницю і станьте частиною нашої великої родини смаку!</p>
-        </section>
-
-        <!--! Google-map -->
-        <section id="contacts" class="google_map">
-            <div class="google_map__text">
-                <p>Знайдіть нас на мапі</p>
-                <p>Ми розташовані у самому серці Києва</p>
-            </div>
-            <div class="google_map__iframe">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509123!2d144.9537353153164!3d-37.81627997975168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11b5c7%3A0x5045675218ceed30!2sVictoria%20Bakery%20-%20Bakery%20Shop%20in%20Melbourne%2C%20Australia!5e0!3m2!1suk!2sua!4v1633035600000"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
-    </main>
-
-    <!--! Footer-->
-    <footer>
-        <nav class="main_menu" aria-label="Футер меню">
-            <hr>
-            <ul>
-                <li><a href="#home" class="main_menu__items">Головна</a></li>
-                <li><a href="#about" class="main_menu__items">Про нас</a></li>
-                <li><a href="#bakery" class="main_menu__items">Випічка</a></li>
-                <li><a href="#news" class="main_menu__items">Новини</a></li>
-                <li><a href="#contacts" class="main_menu__items">Контакти</a></li>
-            </ul>
-        </nav>
-        <p class="copyright">
-            &copy; 2025 Bakery — від серця до серця ❤️. Всі права захищені. Created by <a href="https://zimin.dev" target="_blank">Sasha Zimin</a> .
-        </p>
-    </footer>
+	<header id="start">
+		<div class="logo">
+			<img src="/img/01-Logo.svg" alt="Bakery">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#start">Головна</a></li>
+				<li><a href="#about">Про нас</a></li>
+				<li><a href="#shop">Продукція</a></li>
+				<li><a href="#contact">Контакти</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="about">
+		<section class="slider">
+			<div class="slider_item_block">
+				<div class="slider_item_block_border">
+					<h2>Спеціальна пропозиція</h2>
+					<p>Відчуйте аромат свіжоспеченого щастя, щойно з наших печей. Пориньте у світ найніжнішої випічки, створеної з любов'ю у самому серці Києва.Пориньте у світ найніжнішої випічки, створеної з любов'ю у самому серці Києва.</p>
+				</div>
+			</div>
+		</section>
+		<section class="icons" id="shop">
+			<div class="icons_item">
+				<img src="/icons/01-Иконка.svg" alt="Always Fresh">
+			</div>
+			<div class="icons_item">
+				<img src="/icons/02-Иконка.svg" alt="Cakes">
+			</div>
+			<div class="icons_item">
+				<img src="/icons/03-Иконка.svg" alt="Bakery">
+			</div>
+		</section>
+		<section class="main_text">
+			<h1>
+				Випічка <span>серця</span> столиці.
+			</h1>
+			<p>
+				У самому центрі гамірного Києва, де історія зустрічається з динамікою сучасності, народжується щось особливе. Ми вкладаємо душу в кожний виріб, поєднуючи перевірені часом рецепти з майстерністю наших пекарів. Для нас справжність — це лише натуральні інгредієнти, тепло людських рук і той неповторний аромат, що здатен зупинити час і подарувати вам хвилину чистої насолоди.
+			</p>
+		</section>
+		<section class="map">
+			<div>
+				<h2>Замовити</h2>
+			</div>
+			<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20325.17944233674!2d30.523377920300295!3d50.447667498997056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1749185481615!5m2!1suk!2sua" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</section>
+	</main>
+	<footer id="contact">
+		<hr>
+		<nav>
+			<ul>
+				<li><a href="#start">Головна</a></li>
+				<li><a href="#about">Про нас</a></li>
+				<li><a href="#shop">Продукція</a></li>
+				<li><a href="#contact">Контакти</a></li>
+			</ul>
+		</nav>
+	</footer>
 </body>
-
+</html>
 </html>
