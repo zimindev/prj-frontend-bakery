@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-	color: #891616;
+	color: #e62323;
 }
 
 main {
@@ -84,7 +84,7 @@ hr {
 	top: auto;
 	width: 1440px;
 	height: 640px;
-	background-image: url(/img/01-Картинка-фона.jpg);
+	background-image: url(../assets/img/background.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	border-radius: 8px;
