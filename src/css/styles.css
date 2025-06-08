@@ -161,3 +161,25 @@ hr {
 footer {
 	padding: 1px;
 }
+
+.copy {
+	display: block;
+	text-align: center;
+	height: 42px;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	padding: 20px 0 30px 0;
+}
+
+.copy-link {
+	color: #000000;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.copy-link:hover {
+	color: #ff0000;
+	font-weight: 600;
+	text-decoration: underline;
+}
